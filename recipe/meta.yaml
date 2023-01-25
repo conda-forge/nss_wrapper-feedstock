@@ -1,4 +1,4 @@
-{% set version = "1.1.14" %}
+{% set version = "1.1.15" %}
 
 package:
   name: nss_wrapper
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://ftp.samba.org/pub/cwrap/nss_wrapper-{{ version }}.tar.gz
-  sha256: 9526f9a0798cd22a0392375b1a7b6f0f5a35539974817ada0b0fff58600da309
+  sha256: 36f874832a4f2158e04f69aa77e5515e16cf6e3bf81968d5dd8496db7d6906ad
 
 build:
   number: 0
